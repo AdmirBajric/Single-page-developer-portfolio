@@ -32,3 +32,8 @@ body {
   font-family: var(--fontFamily);
   box-sizing: border-box;
 }
+
+#container {
+  width: 144rem;
+  height: 387.2rem;
+}
