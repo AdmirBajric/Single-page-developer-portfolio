@@ -89,6 +89,14 @@ body {
   left: -10rem;
 }
 
+.rings-pattern-2 {
+  width: 53rem;
+  height: 12.9rem;
+  position: absolute;
+  top: 25.3rem;
+  right: -38rem;
+}
+
 .developer {
   width: 17.2rem;
   height: 3.2rem;
@@ -132,7 +140,7 @@ body {
   line-height: 1.5;
 }
 
-.contact {
+.dev-contact {
   width: 12rem;
   height: 3.8rem;
   position: absolute;
@@ -143,7 +151,7 @@ body {
   z-index: 1;
 }
 
-.contact a {
+.dev-contact a {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--white);
@@ -153,7 +161,7 @@ body {
   letter-spacing: 2.2857144px;
 }
 
-.contact a:active {
+.dev-contact a:active {
   color: var(--neonGreen);
   cursor: pointer;
 }
@@ -164,4 +172,42 @@ body {
   position: absolute;
   top: 52.1rem;
   left: 76.6rem;
+}
+
+#main {
+  width: 111rem;
+  position: absolute;
+  top: 82.4rem;
+  margin-top: 10.4rem;
+  border-top: 0.1rem solid var(--white);
+}
+
+#language {
+  width: 111rem;
+  height: 32.7rem;
+  margin-top: 7.2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lang {
+  width: 34rem;
+  height: 9.8rem;
+  margin-right: 3rem;
+}
+
+.lang h4 {
+  font-size: 4.8rem;
+  font-weight: var(--p2);
+  line-height: 56px;
+  letter-spacing: -1.5px;
+}
+
+.lang p {
+  color: var(--lightGray);
+  font-size: 1.8rem;
+  font-weight: var(--p1);
+  line-height: 2.8rem;
+  margin-top: 1.4rem;
 }
