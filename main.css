@@ -272,6 +272,7 @@ a {
 .single-project {
   width: 54rem;
   height: 48.7rem;
+  position: relative;
 }
 
 .single-project img {
@@ -302,8 +303,4 @@ a {
   line-height: 2.8rem;
   margin-top: 0.7rem;
   margin-right: 2rem;
-}
-
-.project-hidden {
-  display: none;
 }
