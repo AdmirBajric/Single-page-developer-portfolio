@@ -48,20 +48,28 @@
           />
           <div class="social">
             <a href="#"
-              ><img src="./assets/images/icon-github.svg" alt="Github social"
+              ><img
+                class="svg-image"
+                src="./assets/images/icon-github.svg"
+                alt="Github social"
             /></a>
             <a href="#"
               ><img
+                class="svg-image"
                 src="./assets/images/icon-frontend-mentor.svg"
                 alt="Frontend Mentor social"
             /></a>
             <a href="#"
               ><img
+                class="svg-image"
                 src="./assets/images/icon-linkedin.svg"
                 alt="LinkedIn social"
             /></a>
             <a href="#"
-              ><img src="./assets/images/icon-twitter.svg" alt="Twitter social"
+              ><img
+                class="svg-image"
+                src="./assets/images/icon-twitter.svg"
+                alt="Twitter social"
             /></a>
           </div>
         </div>
@@ -112,113 +120,199 @@
           </div>
           <div class="projects">
             <div class="single-project">
-              <img
-                src="./assets/images/thumbnail-project-1-large.webp"
-                alt="Design Project image"
-              />
+              <div id="overlay">
+                <img
+                  src="./assets/images/thumbnail-project-1-large.webp"
+                  alt="Design Project image"
+                />
+                <div class="project-hidden">
+                  <a href="#">View Project</a>
+                  <a href="#">View code</a>
+                </div>
+              </div>
+
               <h4>Design portfolio</h4>
               <div class="technologies">
                 <p>HTML</p>
                 <p>CSS</p>
               </div>
-              <div class="project-hidden">
-                <p>View project</p>
-                <p>View code</p>
-              </div>
             </div>
 
             <div class="single-project">
-              <img
-                src="./assets/images/thumbnail-project-2-large.webp"
-                alt="E-Learning image"
-              />
+              <div id="overlay">
+                <img
+                  src="./assets/images/thumbnail-project-2-large.webp"
+                  alt="E-Learning image"
+                />
+                <div class="project-hidden">
+                  <a href="#">View Project</a>
+                  <a href="#">View code</a>
+                </div>
+              </div>
+
               <h4>E-learning landing page</h4>
               <div class="technologies">
                 <p>HTML</p>
                 <p>CSS</p>
               </div>
-              <div class="project-hidden">
-                <p>View project</p>
-                <p>View code</p>
-              </div>
             </div>
 
             <div class="single-project">
-              <img
-                src="./assets/images/thumbnail-project-3-large.webp"
-                alt="E-Learning image"
-              />
+              <div id="overlay">
+                <img
+                  src="./assets/images/thumbnail-project-3-large.webp"
+                  alt="E-Learning image"
+                />
+                <div class="project-hidden">
+                  <a href="#">View Project</a>
+                  <a href="#">View code</a>
+                </div>
+              </div>
+
               <h4>Todo Web App</h4>
               <div class="technologies">
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>Javascript</p>
               </div>
-              <div class="project-hidden">
-                <p>View project</p>
-                <p>View code</p>
-              </div>
             </div>
 
             <div class="single-project">
-              <img
-                src="./assets/images/thumbnail-project-4-large.webp"
-                alt="E-Learning image"
-              />
+              <div id="overlay">
+                <img
+                  src="./assets/images/thumbnail-project-4-large.webp"
+                  alt="E-Learning image"
+                />
+                <div class="project-hidden">
+                  <a href="#">View Project</a>
+                  <a href="#">View code</a>
+                </div>
+              </div>
+
               <h4>Entertainment web App</h4>
               <div class="technologies">
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>Javascript</p>
               </div>
-              <div class="project-hidden">
-                <p>View project</p>
-                <p>View code</p>
-              </div>
             </div>
 
             <div class="single-project">
-              <img
-                src="./assets/images/thumbnail-project-5-large.webp"
-                alt="E-Learning image"
-              />
+              <div id="overlay">
+                <img
+                  src="./assets/images/thumbnail-project-5-large.webp"
+                  alt="E-Learning image"
+                />
+                <div class="project-hidden">
+                  <a href="#">View Project</a>
+                  <a href="#">View code</a>
+                </div>
+              </div>
+
               <h4>Memory Game</h4>
               <div class="technologies">
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>Javascript</p>
               </div>
-              <div class="project-hidden">
-                <p>View project</p>
-                <p>View code</p>
-              </div>
             </div>
 
             <div class="single-project">
-              <img
-                src="./assets/images/thumbnail-project-6-large.webp"
-                alt="E-Learning image"
-              />
+              <div id="overlay">
+                <img
+                  src="./assets/images/thumbnail-project-6-large.webp"
+                  alt="E-Learning image"
+                />
+                <div class="project-hidden">
+                  <a href="#">View Project</a>
+                  <a href="#">View code</a>
+                </div>
+              </div>
+
               <h4>Art Gallery Showcase</h4>
               <div class="technologies">
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>Javascript</p>
               </div>
-              <div class="project-hidden">
-                <p>View project</p>
-                <p>View code</p>
-              </div>
             </div>
           </div>
         </section>
       </main>
-      <footer id="footer"></footer>
+      <footer id="footer">
+        <div id="footer-contact">
+          <div class="footer-heading">
+            <h2>Contact</h2>
+            <p>
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I’ll get back to you as soon as
+              possible.
+            </p>
+          </div>
+          <div class="footer-form">
+            <form id="fomr">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Message"
+                required
+              />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+        <img src="./assets/images/pattern-rings.svg" alt="Rings Pattern" />
+        <div class="divider"></div>
+        <div class="footer-dev">
+          <div class="developer">
+            <p>adamkeyes</p>
+          </div>
+          <div class="social">
+            <a href="#"
+              ><img
+                class="svg-image"
+                src="./assets/images/icon-github.svg"
+                alt="Github social"
+            /></a>
+            <a href="#"
+              ><img
+                class="svg-image"
+                src="./assets/images/icon-frontend-mentor.svg"
+                alt="Frontend Mentor social"
+            /></a>
+            <a href="#"
+              ><img
+                class="svg-image"
+                src="./assets/images/icon-linkedin.svg"
+                alt="LinkedIn social"
+            /></a>
+            <a href="#"
+              ><img
+                class="svg-image"
+                src="./assets/images/icon-twitter.svg"
+                alt="Twitter social"
+            /></a>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <!-- Contact I would love to hear about your project and how I could help. Please
-    fill in the form, and I’ll get back to you as soon as possible. Name Email
-    Message Send message adamkeyes -->
+    Name Email Message Send message adamkeyes
     <script src="main.js"></script>
   </body>
 </html>
