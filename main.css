@@ -444,6 +444,10 @@ input::placeholder {
   color: var(--white);
 }
 
+input:focus {
+  padding-left: 2.4rem;
+}
+
 #name,
 #email,
 #message {
