@@ -250,7 +250,7 @@
             </p>
           </div>
           <div class="footer-form">
-            <form id="fomr">
+            <form novalidate id="form">
               <input
                 type="text"
                 id="name"
@@ -272,38 +272,42 @@
                 placeholder="Message"
                 required
               />
-              <input type="submit" value="Submit" />
+              <input id="submit" type="submit" value="Send Message" />
             </form>
           </div>
         </div>
-        <img src="./assets/images/pattern-rings.svg" alt="Rings Pattern" />
+        <img
+          class="rings-pattern-3"
+          src="./assets/images/pattern-rings.svg"
+          alt="Rings Pattern"
+        />
         <div class="divider"></div>
         <div class="footer-dev">
-          <div class="developer">
+          <div class="footer-developer">
             <p>adamkeyes</p>
           </div>
-          <div class="social">
+          <div class="footer-social">
             <a href="#"
               ><img
-                class="svg-image"
+                class="footer-svg-image"
                 src="./assets/images/icon-github.svg"
                 alt="Github social"
             /></a>
             <a href="#"
               ><img
-                class="svg-image"
+                class="footer-svg-image"
                 src="./assets/images/icon-frontend-mentor.svg"
                 alt="Frontend Mentor social"
             /></a>
             <a href="#"
               ><img
-                class="svg-image"
+                class="footer-svg-image"
                 src="./assets/images/icon-linkedin.svg"
                 alt="LinkedIn social"
             /></a>
             <a href="#"
               ><img
-                class="svg-image"
+                class="footer-svg-image"
                 src="./assets/images/icon-twitter.svg"
                 alt="Twitter social"
             /></a>
@@ -311,8 +315,6 @@
         </div>
       </footer>
     </div>
-
-    Name Email Message Send message adamkeyes
     <script src="main.js"></script>
   </body>
 </html>

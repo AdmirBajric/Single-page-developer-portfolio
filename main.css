@@ -374,5 +374,151 @@ a {
   width: 144rem;
   height: 67.5rem;
   margin-top: 14rem;
-  background-color: #4ee1a0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--darkGray);
+  position: relative;
+  overflow: hidden;
+}
+
+#footer-contact {
+  width: 111rem;
+  height: 32.7rem;
+  margin-top: 8.4rem;
+  display: flex;
+}
+
+.footer-heading {
+  width: 50%;
+}
+
+.footer-heading h2 {
+  font-size: 8.8rem;
+  font-weight: var(--p2);
+  line-height: 1.5;
+  letter-spacing: -0.25rem;
+}
+
+.footer-heading p {
+  width: 44.5rem;
+  color: var(--lightGray);
+  font-size: 1.8rem;
+  font-weight: var(--p1);
+  line-height: 1.5;
+}
+
+.footer-form {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 44.5rem;
+  height: 32.7rem;
+}
+
+input {
+  width: 44.5rem;
+  height: 4.3rem;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: var(--darkGray);
+  font-size: 1.6rem;
+  font-weight: var(--p1);
+  line-height: 1.5;
+  letter-spacing: -0.22222222px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+input::placeholder {
+  padding-left: 2.4rem;
+  color: var(--white);
+}
+
+#name,
+#email,
+#message {
+  border-bottom: 0.1rem solid var(--white);
+}
+
+#name {
+  padding-bottom: 1.6rem;
+}
+
+#email {
+  padding-bottom: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+#message {
+  height: 10.7rem;
+  padding-bottom: 8rem;
+  margin-top: 3.2rem;
+}
+
+#submit {
+  width: 14.4rem;
+  height: 3.8rem;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 3.2rem;
+  cursor: pointer;
+  letter-spacing: 2.2857144px;
+  border-bottom: 0.2rem solid var(--neonGreen);
+}
+
+#submit:active {
+  color: var(--neonGreen);
+}
+
+.rings-pattern-3 {
+  width: 53rem;
+  height: 12.9rem;
+  position: absolute;
+  top: 32.7rem;
+  left: -20.5rem;
+}
+
+.divider {
+  width: 111rem;
+  height: 0.1rem;
+  background: var(--white);
+  background-blend-mode: normal;
+  margin-top: 9.2rem;
+}
+
+.footer-dev {
+  width: 111rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.7rem;
+}
+
+.footer-developer {
+  width: 17.2rem;
+  height: 3.2rem;
+}
+
+.footer-developer p {
+  font-size: 3.2rem;
+  font-weight: var(--p2);
+  line-height: 1.5;
+  letter-spacing: -0.44444445px;
+}
+
+.footer-social {
+  width: 19.25rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
 }
