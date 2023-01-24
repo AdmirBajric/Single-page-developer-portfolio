@@ -439,12 +439,7 @@ input {
   color: var(--white);
 }
 
-input::placeholder {
-  padding-left: 2.4rem;
-  color: var(--white);
-}
-
-input:focus {
+input:not(:last-child) {
   padding-left: 2.4rem;
 }
 
