@@ -14,9 +14,8 @@ submit.addEventListener("click", (e) => {
     alert(
       "Thank you for contacting me. I will get back to you as soon as possible."
     );
-    name.value = "";
-    email.value = "";
-    message.value = "";
+    clearInput();
+    done([name, email, message]);
   }
 });
 
@@ -42,6 +41,18 @@ const testEmail = (value) => {
       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     )
     .test(value);
+};
+
+const clearInput = () => {
+  name.value = "";
+  email.value = "";
+  message.value = "";
+};
+
+const done = (value) => {
+  value.forEach((v) => {
+    v.style.borderBottom = `0.1rem solid var(--white)`;
+  });
 };
 
 name.addEventListener("input", (e) => {
