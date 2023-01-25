@@ -425,6 +425,10 @@ form {
   height: 32.7rem;
 }
 
+#form input {
+  background-color: transparent !important;
+}
+
 input {
   width: 44.5rem;
   height: 4.3rem;
