@@ -14,6 +14,9 @@ submit.addEventListener("click", (e) => {
     alert(
       "Thank you for contacting me. I will get back to you as soon as possible."
     );
+    name.value = "";
+    email.value = "";
+    message.value = "";
   }
 });
 
