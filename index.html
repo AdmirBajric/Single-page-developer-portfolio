@@ -250,29 +250,16 @@
             </p>
           </div>
           <div class="footer-form">
-            <form novalidate id="form">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Name"
-                required
-              />
+            <form autocomplete="off" id="form">
+              <input type="text" id="name" name="name" placeholder="Name" />
               <p class="error error-name">Field cannot be empty</p>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email"
-                required
-              />
+              <input type="email" id="email" name="email" placeholder="Email" />
               <p class="error error-email">Sorry, invalid format here</p>
               <input
                 type="text"
                 id="message"
                 name="message"
                 placeholder="Message"
-                required
               />
               <p class="error error-message">Field cannot be empty</p>
 
