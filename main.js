@@ -3,6 +3,7 @@ const name = document.querySelector("#name");
 const email = document.querySelector("#email");
 const message = document.querySelector("#message");
 const err = document.querySelector(".error-name");
+const h1 = document.querySelector(".heading h1");
 
 submit.addEventListener("click", (e) => {
   e.preventDefault();

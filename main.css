@@ -43,6 +43,14 @@ a {
   color: var(--white);
 }
 
+.tablet {
+  display: block;
+}
+
+.desk-mob {
+  display: none;
+}
+
 #container {
   width: 144rem;
   height: 387.2rem;
@@ -71,6 +79,7 @@ a {
   top: 0rem;
   left: 66.5rem;
   z-index: -1;
+  content: url("./assets/images/image-profile-desktop.webp");
 }
 
 .social {

@@ -1,0 +1,89 @@
+@media only screen and (max-width: 768px) {
+  .tablet {
+    display: none;
+  }
+
+  .desk-mob {
+    display: block;
+  }
+
+  #container {
+    width: 76.8rem;
+    height: 356.3rem;
+    padding: 3rem;
+    overflow: hidden;
+  }
+
+  #header {
+    width: 76.8rem;
+    height: 60rem;
+  }
+
+  .dev-img-social {
+    width: 32.2rem;
+    height: 60rem;
+  }
+
+  .dev-img {
+    width: 32.2rem;
+    height: 60rem;
+    position: absolute;
+    top: 0rem;
+    left: 44.5rem;
+    z-index: -1;
+    content: url("./assets/images/image-profile-tablet.webp");
+  }
+
+  .social {
+    top: 3.3rem;
+    left: 54.6rem;
+  }
+
+  .rings-pattern-1 {
+    width: 53rem;
+    height: 12.9rem;
+    position: absolute;
+    top: 8.6rem;
+    left: -26.5rem;
+  }
+
+  .developer {
+    top: 2.9rem;
+    left: 3rem;
+  }
+
+  .heading {
+    width: 44.5rem;
+    height: 44.9rem;
+    top: 15.1rem;
+    left: 3.2rem;
+  }
+
+  .heading h1 {
+    font-size: 7.2rem;
+    line-height: 1.25;
+  }
+
+  .heading p {
+    font-size: 1.75rem;
+    margin-top: 6rem;
+    line-height: 1.5;
+  }
+
+  .dev-contact {
+    width: 12rem;
+    height: 3.8rem;
+    top: 56.2rem;
+    left: 3.2rem;
+    margin-top: 3.4rem;
+  }
+
+  .circle {
+    width: 12.9rem;
+    height: 12.9rem;
+    position: absolute;
+    top: 50.1rem;
+    left: 70.3rem;
+    z-index: 1;
+  }
+}
