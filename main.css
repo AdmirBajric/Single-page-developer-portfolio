@@ -397,6 +397,7 @@ a {
   height: 32.7rem;
   margin-top: 8.4rem;
   display: flex;
+  flex-direction: column;
 }
 
 .footer-heading {

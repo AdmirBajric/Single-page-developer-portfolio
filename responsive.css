@@ -164,14 +164,57 @@
   }
 
   #footer {
-    width: 144rem;
-    height: 67.5rem;
-    margin-top: 14rem;
+    width: 76.8rem;
+    height: 85rem;
+    margin-top: 10rem;
+  }
+
+  #footer-contact {
+    width: 44.5rem;
+    height: 17.6rem;
+    margin-top: 6rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--darkGray);
-    position: relative;
-    overflow: hidden;
+  }
+
+  .footer-heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-heading h2 {
+    font-size: 7.2rem;
+  }
+
+  .footer-form {
+    width: 44.5rem;
+    height: 32.7rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-heading p {
+    margin-bottom: 4.8rem;
+  }
+
+  .rings-pattern-3 {
+    width: 53rem;
+    height: 12.9rem;
+    top: 59rem;
+    left: -37.2rem;
+  }
+
+  .divider {
+    width: 70.8rem;
+    height: 0.1rem;
+    position: absolute;
+    margin-top: 75rem;
+  }
+
+  .footer-dev {
+    width: 70.8rem;
+    height: 6.3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55rem;
   }
 }
