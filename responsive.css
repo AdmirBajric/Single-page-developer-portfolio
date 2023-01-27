@@ -107,4 +107,71 @@
     top: 38.9rem;
     right: -36rem;
   }
+
+  #dev-projects {
+    width: 70.8rem;
+    height: 144.6rem;
+    margin-top: 5rem;
+  }
+
+  #projects-heading {
+    width: 70.6rem;
+    height: 7.2rem;
+  }
+
+  #projects-heading h2 {
+    font-size: 7.2rem;
+  }
+
+  .projects {
+    width: 70.8rem;
+    height: 131.4rem;
+    margin-top: 6rem;
+  }
+
+  .single-project {
+    width: 34.2rem;
+    height: 39.8rem;
+  }
+
+  .single-project img {
+    width: 34.2rem;
+    height: 25.3rem;
+  }
+
+  #overlay:hover a {
+    visibility: visible;
+  }
+
+  #overlay a {
+    visibility: visible;
+  }
+
+  #overlay:hover::after {
+    z-index: -1;
+  }
+
+  .project-hidden {
+    width: 27.1rem;
+    height: 3.8rem;
+    top: 36rem;
+    left: 0;
+    flex-direction: row;
+  }
+
+  .project-hidden a {
+    color: var(--white);
+  }
+
+  #footer {
+    width: 144rem;
+    height: 67.5rem;
+    margin-top: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--darkGray);
+    position: relative;
+    overflow: hidden;
+  }
 }
