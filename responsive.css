@@ -9,8 +9,8 @@
 
   #container {
     width: 76.8rem;
-    height: 356.3rem;
-    padding: 3rem;
+    height: 362rem;
+    padding: 0rem 3rem 0rem 3rem;
     overflow: hidden;
   }
 
@@ -61,7 +61,7 @@
 
   .heading h1 {
     font-size: 7.2rem;
-    line-height: 1.25;
+    line-height: 1;
   }
 
   .heading p {
@@ -73,7 +73,7 @@
   .dev-contact {
     width: 12rem;
     height: 3.8rem;
-    top: 56.2rem;
+    top: 52.5rem;
     left: 3.2rem;
     margin-top: 3.4rem;
   }
@@ -81,13 +81,13 @@
   .circle {
     width: 12.9rem;
     height: 12.9rem;
-    top: 50.1rem;
-    left: 70.3rem;
+    top: 47.1rem;
+    left: 68.3rem;
   }
 
   #main {
     width: 70.8rem;
-    top: 66rem;
+    top: 62rem;
     margin-top: 4rem;
   }
 
