@@ -174,6 +174,7 @@
     height: 17.6rem;
     margin-top: 6rem;
     display: flex;
+    flex-direction: column;
   }
 
   .footer-heading {
@@ -216,5 +217,81 @@
     display: flex;
     justify-content: space-between;
     margin-top: 55rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #container {
+    width: 37.5rem;
+    height: 501.3rem;
+  }
+
+  #header {
+    width: 34.3rem;
+    height: 66.7rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dev-img-social {
+    width: 17.4rem;
+    height: 38.3rem;
+    position: relative;
+    background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0%, #242424 100%);
+    background-blend-mode: normal;
+    z-index: 2;
+  }
+
+  .dev-img {
+    width: 17.4rem;
+    height: 24.2rem;
+    top: 14rem;
+    left: 0rem;
+    background: url("./assets/images/image-profile-mobile.webp");
+    z-index: -1;
+  }
+
+  .social {
+    width: 15.3rem;
+    height: 2rem;
+    top: 7.2rem;
+    left: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social a {
+    width: 1.96rem;
+    height: 1.92em;
+  }
+
+  .rings-pattern-1 {
+    width: 53rem;
+    height: 12.9rem;
+    top: 12.4rem;
+    left: -33rem;
+    z-index: 3;
+  }
+
+  .developer {
+    width: 12.9rem;
+    height: 3.2rem;
+    top: 2rem;
+    left: 12.3rem;
+  }
+
+  .developer p {
+    font-size: 2.4rem;
+    font-weight: var(--p2);
+    line-height: 1.5;
+    letter-spacing: -0.33333334px;
+    text-align: center;
+  }
+
+  .heading {
+    width: 34.3rem;
+    height: 24.4rem;
+    top: 42.3rem;
+    left: 1.6rem;
   }
 }
