@@ -1,5 +1,3 @@
-# Development - Desktop Portfolio Website is done! Working on Tablet and Mobile view.
-
 # Single Page Developer Portfolio
 
 ## Frontend Mentor
