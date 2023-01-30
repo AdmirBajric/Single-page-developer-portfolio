@@ -378,4 +378,128 @@
     top: 54rem;
     left: 17rem;
   }
+
+  #dev-projects {
+    width: 34.3rem;
+    height: 274.8rem;
+    margin-top: 8rem;
+  }
+
+  #projects-heading {
+    width: 34.3rem;
+    height: 4rem;
+  }
+
+  #projects-heading h2 {
+    font-size: 4rem;
+    letter-spacing: -0.13rem;
+  }
+
+  .projects {
+    width: 34.3rem;
+    height: 258.8rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 4rem;
+  }
+
+  .single-project {
+    width: 34.3rem;
+    height: 39.8rem;
+  }
+
+  .single-project img {
+    width: 34.3rem;
+    height: 25.3rem;
+  }
+
+  #footer {
+    width: 71.8rem;
+    height: 83.4rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--darkGray);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #footer-contact {
+    width: 34.3rem;
+    height: 511.5rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-heading h2 {
+    font-size: 4rem;
+    letter-spacing: -0.113rem;
+  }
+
+  .footer-heading p {
+    width: 34.3rem;
+    font-size: 1.6rem;
+  }
+
+  .footer-form {
+    width: 34.3rem;
+  }
+
+  form {
+    width: 34.3rem;
+    height: 32.7rem;
+  }
+
+  input {
+    width: 34.3rem;
+    height: 4.3rem;
+  }
+
+  .rings-pattern-3 {
+    width: 53rem;
+    height: 12.9rem;
+    position: absolute;
+    top: 46.6rem;
+    left: -18.7rem;
+  }
+
+  .divider {
+    width: 111rem;
+    height: 0.1rem;
+    background: var(--white);
+    background-blend-mode: normal;
+    margin-top: 70rem;
+  }
+
+  .footer-dev {
+    width: 15.4rem;
+    height: 7.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3.9rem;
+    margin-bottom: 3.9rem;
+  }
+
+  .footer-developer {
+    width: 12.9rem;
+    height: 3.2rem;
+  }
+
+  .footer-developer p {
+    font-size: 2.4rem;
+    letter-spacing: -0.3333333px;
+  }
+
+  .footer-social {
+    width: 15.4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
 }
