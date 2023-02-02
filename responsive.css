@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media (width <= 768px) {
   .tablet {
     display: none;
   }
@@ -220,7 +220,7 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media (320px <= width <= 480px) {
   .tablet {
     display: block;
   }
